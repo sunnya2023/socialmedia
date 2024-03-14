@@ -1,11 +1,13 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-align: none;
   list-style: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  border: none;
+  outline: none;
 }
 
 :root {
@@ -85,4 +87,11 @@ p {
 .btn-red {
   background: var(--color-red);
   color: white;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 20% 54% 23%;
+  gap: 3%;
+  width: 100%;
 }
